@@ -1,24 +1,24 @@
 # Object Stream
 
-### In Java, you can use Object Streams (ObjectOutputStream and ObjectInputStream) to serialize and deserialize objects.
+In Java, you can use Object Streams (ObjectOutputStream and ObjectInputStream) to serialize and deserialize objects.
 
-### Serialization is the process of converting an object into a byte stream, and deserialization is the process of converting the byte stream back into an object.
+Serialization is the process of converting an object into a byte stream, and deserialization is the process of converting the byte stream back into an object.
 
 ---
 
 ## ObjectInputStream and ObjectOutputStream
 
-### The objects created by the ObjectInputStream class are called object input streams
+The objects created by the ObjectInputStream class are called object input streams
 
-### The objects created by the ObjectOutputStream class are called object output streams
+The objects created by the ObjectOutputStream class are called object output streams
 
-### The object output stream uses the writeObject(Object obj) method to write an object obj to the output stream.
+The object output stream uses the writeObject(Object obj) method to write an object obj to the output stream.
 
-### Object input stream uses readObject() to read an object from the source into the program.
+Object input stream uses readObject() to read an object from the source into the program.
 
-### If a class implements the Serializable interface, then the object created by this class is a serializable object .
+If a class implements the Serializable interface, then the object created by this class is a serializable object .
 
-### When a serialized object is written to an object output stream, the JVM automatically writes the object to the destination in a certain format.
+When a serialized object is written to an object output stream, the JVM automatically writes the object to the destination in a certain format.
 
 ---
 
