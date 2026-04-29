@@ -1,12 +1,12 @@
 # File Character IO Stream
 
-## FileReader and FileWriter: This stream is used for reading and writing character-based data (text) from/to files and are designed for handling text files and work with character streams.
+### FileReader and FileWriter: This stream is used for reading and writing character-based data (text) from/to files and are designed for handling text files and work with character streams.
 
-## For better performance, wrap FileReader and FileWriter with BufferedReader and BufferedWriter:
+### For better performance, wrap FileReader and FileWriter with BufferedReader and BufferedWriter:
 
-## BufferedReader br = new BufferedReader(new FileReader("file.txt"));
+### BufferedReader br = new BufferedReader(new FileReader("file.txt"));
 
-## BufferedWriter bw = new BufferedWriter(new FileWriter("file.txt"));
+### BufferedWriter bw = new BufferedWriter(new FileWriter("file.txt"));
 
 ## Examples
 
