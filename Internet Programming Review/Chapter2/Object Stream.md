@@ -8,27 +8,27 @@ Serialization is the process of converting an object into a byte stream, and des
 
 ## ObjectInputStream and ObjectOutputStream
 
-The objects created by the ObjectInputStream class are called object input streams
+The objects created by the ObjectInputStream class are called **object input streams**
 
-The objects created by the ObjectOutputStream class are called object output streams
+The objects created by the ObjectOutputStream class are called **object output streams**
 
-The object output stream uses the writeObject(Object obj) method to write an object obj to the output stream.
+The object output stream uses the **writeObject(Object obj)** method to write an object obj to the output stream.
 
-Object input stream uses readObject() to read an object from the source into the program.
+Object input stream uses **readObject()** to read an object from the source into the program.
 
-If a class implements the Serializable interface, then the object created by this class is a serializable object .
+If a class implements the **Serializable interface**, then the object created by this class is **a serializable object** .
 
-When a serialized object is written to an object output stream, the JVM automatically writes the object to the destination in a certain format.
+**When a serialized object is written to an object output stream, the JVM automatically writes the object to the destination in a certain format.**
 
----
+## Terminologies
 
 1. **Serializable** refers to the ability of an object to be converted into a byte stream, which can then be saved to a file, sent over a network, or stored in a database. To make a class serializable in Java, it must implement the java.io.Serializable interface. This process is known as serialization.
 
 2. **The reverse process**, where a byte stream is converted back into an object, is called **deserialization**.
 
-3. **Serialization Process**: The ObjectOutputStream class is used to serialize an object. The writeObject() method writes the object to an output stream.
+3. **Serialization Process**: The ObjectOutputStream class is used to serialize an object. The **writeObject()** method writes the object to an output stream.
 
-4. **Deserialization Process**: The ObjectInputStream class is used to deserialize an object. The readObject() method reads the object from an input stream.
+4. **Deserialization Process**: The ObjectInputStream class is used to deserialize an object. The **readObject()** method reads the object from an input stream.
 
 ```java
 import java.io.Serializable;
@@ -37,7 +37,7 @@ public class MyClass implements Serializable {
     }
 ```
 
-5. When to Use Object Streams:
+5. **When to Use Object Streams:**
 
    a) Use object streams when you need to save and restore the state of objects (e.g., in file-based storage or network communication).
 
