@@ -1,20 +1,20 @@
 # Character Array Streams
 
-## Using character arrays as stream sources and destinations
+### Using character arrays as stream sources and destinations
 
-## In Java, CharArrayReader and CharArrayWriter are I/O classes that handle character array (char[]) input and output streams.
+### In Java, CharArrayReader and CharArrayWriter are I/O classes that handle character array (char[]) input and output streams.
 
-## They are part of the java.io package and are useful for in-memory stream operations without involving physical files or network resources.
+### They are part of the java.io package and are useful for in-memory stream operations without involving physical files or network resources.
 
-1. CharArrayReader (Input from char[]): CharArrayReader reads characters from a char[] array as an input stream. It extends Reader and provides methods to read characters sequentially.
+### CharArrayReader (Input from char[]): CharArrayReader reads characters from a char[] array as an input stream. It extends Reader and provides methods to read characters sequentially.
 
-**Key Features:**
+## Key Features:
 
-##### Reads from an in-memory char[] array.
+### Reads from an in-memory char[] array.
 
-##### Supports mark() and reset() for re-reading data.
+### Supports mark() and reset() for re-reading data.
 
-##### Lightweight alternative to FileReader when working with character arrays.
+### Lightweight alternative to FileReader when working with character arrays.
 
 ## Example
 
