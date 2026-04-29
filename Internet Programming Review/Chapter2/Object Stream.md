@@ -1,8 +1,8 @@
 # Object Stream
 
-## In Java, you can use Object Streams (ObjectOutputStream and ObjectInputStream) to serialize and deserialize objects.
+### In Java, you can use Object Streams (ObjectOutputStream and ObjectInputStream) to serialize and deserialize objects.
 
-## Serialization is the process of converting an object into a byte stream, and deserialization is the process of converting the byte stream back into an object.
+### Serialization is the process of converting an object into a byte stream, and deserialization is the process of converting the byte stream back into an object.
 
 ---
 
@@ -24,7 +24,7 @@
 
 1. **Serializable** refers to the ability of an object to be converted into a byte stream, which can then be saved to a file, sent over a network, or stored in a database. To make a class serializable in Java, it must implement the java.io.Serializable interface. This process is known as serialization.
 
-2. The reverse process, where a byte stream is converted back into an object, is called **deserialization**.
+2. **The reverse process**, where a byte stream is converted back into an object, is called **deserialization**.
 
 3. **Serialization Process**: The ObjectOutputStream class is used to serialize an object. The writeObject() method writes the object to an output stream.
 
