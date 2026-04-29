@@ -1,12 +1,12 @@
 # DataStream
 
-## In Java, DataOutputStream / DataInputStream is a class in the java.io package that allows you to write/Read primitive data types (e.g., int, double, bool, etc.) and strings to an output stream in a machine-independent way.
+### In Java, DataOutputStream / DataInputStream is a class in the java.io package that allows you to write/Read primitive data types (e.g., int, double, bool, etc.) and strings to an output stream in a machine-independent way.
 
-## It is often used in conjunction with FileOutputStream / FileInputStream or other output / input streams to write/read data to files or network sockets.
+### It is often used in conjunction with FileOutputStream / FileInputStream or other output / input streams to write/read data to files or network sockets.
 
-## It provides methods like writeInt() / readInt(), writeDouble() / readDouble(), writeBoolean() / readBoolean, etc., to write / read primitive data types.
+### It provides methods like writeInt() / readInt(), writeDouble() / readDouble(), writeBoolean() / readBoolean, etc., to write / read primitive data types.
 
-## Buffered Output / Input: It can be wrapped around a BufferedOutputStream / BufferedInputStream for better performance.
+### Buffered Output / Input: It can be wrapped around a BufferedOutputStream / BufferedInputStream for better performance.
 
 ## Examples
 
