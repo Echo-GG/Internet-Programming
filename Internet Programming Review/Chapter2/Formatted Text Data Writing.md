@@ -1,16 +1,16 @@
 # Formatted Text Data Writing
 
-## PrintWriter is a class that provides methods to write formatted text data to an output stream (e.g., a file, console, or network socket).
+### PrintWriter is a class that provides methods to write formatted text data to an output stream (e.g., a file, console, or network socket).
 
-## It is similar to System.out, but it can write to any output stream.
+### It is similar to System.out, but it can write to any output stream.
 
-## Formatted Output: Provides methods like print(), println(), printf(), etc., for writing formatted text.
+### Formatted Output: Provides methods like print(), println(), printf(), etc., for writing formatted text.
 
-## Auto-Flush: Can automatically flush the stream after every write operation if enabled.
+### Auto-Flush: Can automatically flush the stream after every write operation if enabled.
 
-## No IOException: Unlike other I/O classes, PrintWriter methods do not throw IOException. Instead, you can check for errors using the checkError() method.
+### No IOException: Unlike other I/O classes, PrintWriter methods do not throw IOException. Instead, you can check for errors using the checkError() method.
 
-## Wraps Other Streams: Can wrap other output streams like FileOutputStream, OutputStreamWriter, etc.
+### Wraps Other Streams: Can wrap other output streams like FileOutputStream, OutputStreamWriter, etc.
 
 ```java
 import java.io.FileWriter;
