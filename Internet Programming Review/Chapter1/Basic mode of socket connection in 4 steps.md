@@ -17,7 +17,7 @@ try{
 ```Java
 // When the server-side ServerSocket obj waitSocketConnection is established, the accept() method can be used to receive the client's socket connection request. The code is as follows:
 
-Socket socketAtServet = waitSocketConnection.accept();
+Socket socketAtServer = waitSocketConnection.accept();
 
 // The so-called "receiving" the client's socket request means that the accept() method will return a NEW Socket object (socketAtServer), which is called the server-side socket object.
 ```
